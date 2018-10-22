@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Before/After Slider</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="slider">
+            <img class="slider__image slider__image--after" src="img/after-tablet@1x.png" 
+                        width="690" height="517" alt="">
+            <div class="slider__resize">
+                <img class="slider__image slider__image--before" src="img/before-tablet@1x.png" 
+                        width="690" height="517" alt="">  
+            </div> 
+            <div class="slider__controls">     
+                <button class="link link--underline slider__button slider__button--before" type="button">
+                    Было
+                </button>
+                <span class="slider__range"></span>
+                <button class="link link--underline slider__button slider__button--after" type="button">
+                    Стало
+                </button>
+            </div>
+        </div>
+        <script src="js/slider.js"></script>
+    </body>
+</html>
